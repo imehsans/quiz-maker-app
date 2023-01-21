@@ -1,0 +1,64 @@
+{
+	"exam": [
+		{
+			"id": 1,
+			"name": "General Test",
+			"time": "1 Hour allowed ",
+			"date": "24/01/2023"
+		}
+	],
+	"test": [
+		{
+			"id": 1,
+			"question": "Your Provence Name is",
+			"options": [
+				{
+					"id": 1,
+					"content": "KPK",
+					"check": "unchecked"
+				},
+				{
+					"id": 2,
+					"content": "Punjab",
+					"check": "unchecked"
+				},
+				{
+					"id": 3,
+					"content": "Sindh",
+					"check": "unchecked"
+				},
+				{
+					"id": 4,
+					"content": "Balochistan",
+					"check": "unchecked"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"question": "Your Provence Name is",
+			"options": [
+				{
+					"id": 1,
+					"content": "KPK",
+					"check": "unchecked"
+				},
+				{
+					"id": 2,
+					"content": "Punjab",
+					"check": "unchecked"
+				},
+				{
+					"id": 3,
+					"content": "Sindh",
+					"check": "unchecked"
+				},
+				{
+					"id": 4,
+					"content": "Balochistan",
+					"check": "unchecked"
+				}
+			]
+		}
+	]
+}

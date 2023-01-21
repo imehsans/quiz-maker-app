@@ -1,15 +1,23 @@
-import './App.css'
-import Question from './components/Question'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import MakeExam from './pages/MakeExam'
+import NoPage from './pages/NoPage'
+import Test from './pages/Test'
+import View from './pages/View'
+
 function App() {
 	return (
 		<div className="container mx-auto">
-			<h1 className="py-4 text-3xl text-center">Quiz Maker App</h1>
-			<div className="flex ">
-				<div className="w-1/3">
-					<Question />
-				</div>
-				<div className="w-2/3">1</div>
-			</div>
+			<BrowserRouter>
+				<Routes>
+					<Route path="/" element={<View />}>
+						<Route index element={<Home />} />
+						<Route path="makeExam" element={<MakeExam />} />
+						<Route path="test" element={<Test />} />
+						<Route path="*" element={<NoPage />} />
+					</Route>
+				</Routes>
+			</BrowserRouter>
 		</div>
 	)
 }

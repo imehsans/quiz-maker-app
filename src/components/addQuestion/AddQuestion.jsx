@@ -1,6 +1,8 @@
 import React from 'react'
 
 const AddQuestion = () => {
+	// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 	return (
 		<div className="mb-4">
 			<label htmlFor="question"></label>
