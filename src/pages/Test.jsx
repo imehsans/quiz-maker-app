@@ -35,16 +35,18 @@ const Test = () => {
 									{question.id}: {question.question}?
 								</span>
 							</div>
-							<ol type="A">
-								{question?.options?.map((option) => {
-									return (
-										<li key={option.id} className="flex gap-3 pl-4">
-											<input type="checkbox" name="" id="" />
-											<label>{option.content}</label>
-										</li>
-									)
-								})}
-							</ol>
+							<div>
+								<ul>
+									{question?.options?.map((option) => {
+										return (
+											<li key={option.id} className="flex gap-3 pl-4">
+												<input type="radio" name={question.id} id={option.id} />
+												<label>{option.content}</label>
+											</li>
+										)
+									})}
+								</ul>
+							</div>
 						</div>
 					</li>
 				)

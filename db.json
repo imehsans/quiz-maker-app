@@ -1,64 +1,119 @@
 {
-	"exam": [
-		{
-			"id": 1,
-			"name": "General Test",
-			"time": "1 Hour allowed ",
-			"date": "24/01/2023"
-		}
-	],
-	"test": [
-		{
-			"id": 1,
-			"question": "Your Provence Name is",
-			"options": [
-				{
-					"id": 1,
-					"content": "KPK",
-					"check": "unchecked"
-				},
-				{
-					"id": 2,
-					"content": "Punjab",
-					"check": "unchecked"
-				},
-				{
-					"id": 3,
-					"content": "Sindh",
-					"check": "unchecked"
-				},
-				{
-					"id": 4,
-					"content": "Balochistan",
-					"check": "unchecked"
-				}
-			]
-		},
-		{
-			"id": 2,
-			"question": "Your Provence Name is",
-			"options": [
-				{
-					"id": 1,
-					"content": "KPK",
-					"check": "unchecked"
-				},
-				{
-					"id": 2,
-					"content": "Punjab",
-					"check": "unchecked"
-				},
-				{
-					"id": 3,
-					"content": "Sindh",
-					"check": "unchecked"
-				},
-				{
-					"id": 4,
-					"content": "Balochistan",
-					"check": "unchecked"
-				}
-			]
-		}
-	]
+  "exam": [
+    {
+      "id": 1,
+      "name": "General Test",
+      "time": "1 Hour allowed ",
+      "date": "24/01/2023"
+    }
+  ],
+  "test": [
+    {
+      "question": "Who is the PM of Pakistan?",
+      "options": [
+        {
+          "id": "0",
+          "content": "Imran Khan"
+        },
+        {
+          "id": "1",
+          "content": "Shahbaz Sharif"
+        },
+        {
+          "id": "2",
+          "content": "Nawaz Sharif"
+        },
+        {
+          "id": "3",
+          "content": "Asif Zardari"
+        }
+      ],
+      "correctOption": "1",
+      "id": 1
+    },
+    {
+      "question": "The are total ___________ Population in the world?",
+      "options": [
+        {
+          "id": "0",
+          "content": "100M"
+        },
+        {
+          "id": "1",
+          "content": "1B"
+        },
+        {
+          "id": "2",
+          "content": "7B"
+        },
+        {
+          "id": "3",
+          "content": "200M"
+        }
+      ],
+      "correctOption": "2",
+      "id": 2
+    },
+    {
+      "question": "The there are approximately _________ muslim's in the World ",
+      "options": [
+        {
+          "id": "0",
+          "content": "1B"
+        },
+        {
+          "id": "1",
+          "content": "1.5B"
+        },
+        {
+          "id": "2",
+          "content": "2B"
+        }
+      ],
+      "correctOption": "2",
+      "id": 3
+    },
+    {
+      "question": "Pakistan Celebrate independence Day on ________",
+      "options": [
+        {
+          "id": "0",
+          "content": "Aug 14th"
+        },
+        {
+          "id": "1",
+          "content": "Sep 19th"
+        },
+        {
+          "id": "2",
+          "content": "Aug 15th"
+        },
+        {
+          "id": "3",
+          "content": "Jan 1st"
+        }
+      ],
+      "correctOption": "0",
+      "id": 4
+    },
+    {
+      "question": "Pakistan is Good Country",
+      "options": [
+        {
+          "id": "0",
+          "content": "Yes"
+        },
+        {
+          "id": "1",
+          "content": "No"
+        },
+        {
+          "id": "2",
+          "content": "not Sure"
+        }
+      ],
+      "correctOption": "",
+      "id": 5
+    }
+  ]
 }
