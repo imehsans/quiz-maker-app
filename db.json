@@ -70,7 +70,7 @@
           "content": "2B"
         }
       ],
-      "correctOption": "1",
+      "correctOption": "2",
       "id": 3
     },
     {
@@ -93,7 +93,7 @@
           "content": "Jan 1st"
         }
       ],
-      "correctOption": "2",
+      "correctOption": "0",
       "id": 4
     },
     {
@@ -112,7 +112,7 @@
           "content": "Not Sure"
         }
       ],
-      "correctOption": "1",
+      "correctOption": "0",
       "id": 6
     },
     {
@@ -135,7 +135,7 @@
           "content": "Balochi"
         }
       ],
-      "correctOption": "",
+      "correctOption": "0",
       "id": 8
     }
   ]
