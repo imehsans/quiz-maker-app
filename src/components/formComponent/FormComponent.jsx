@@ -32,6 +32,7 @@ const FormComponent = ({ addOption, setAddOption }) => {
 								className="py-1 w-full px-2 border  rounded "
 								type="text"
 								value={item.content}
+								required
 								onChange={(e) =>
 									setAddOption((addOption) =>
 										addOption.map((iter, i) => {

@@ -12,6 +12,7 @@ const AddQuestions = ({ addQuestion, setAddQuestion }) => {
 				placeholder="Write Question..."
 				style={{ resize: 'none' }}
 				value={addQuestion}
+				required
 				onChange={(e) => setAddQuestion(e.target.value)}
 			></textarea>
 		</div>

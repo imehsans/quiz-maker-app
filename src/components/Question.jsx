@@ -57,27 +57,28 @@ const Question = () => {
 						setAddQuestion={setAddQuestion}
 					/>
 					<FormComponent addOption={addOption} setAddOption={setAddOption} />
+					<div className="w-full  flex justify-around flex-wrap">
+						<button
+							className="py-2 bg-gradient-to-tr from-red-400 via-white to-blue-600 hover:bg-gradient-from-tl my-4 hover:from-gray-500 hover:via-blue-700 hover:text-white  shadow-md hover:to-green-600  rounded px-10 border"
+							onClick={() => {
+								setAddOption([...addOption, obj])
+							}}
+						>
+							Add Option
+						</button>
+						<button
+							type="submit"
+							className="py-2 bg-gradient-to-tr from-red-400 via-white to-blue-600 hover:bg-gradient-from-tl my-4 hover:from-gray-500 hover:via-blue-700 hover:text-white  shadow-md hover:to-green-600  rounded px-8 border"
+							onClick={(e) => {
+								addQuestion && addOption
+									? addQuestionToJson(e)
+									: context.setTab(!context.tab)
+							}}
+						>
+							Next Question
+						</button>
+					</div>
 				</form>
-				<div className="w-full md:w-11/12  flex justify-around flex-wrap">
-					<button
-						className="py-2 bg-gradient-to-tr from-red-400 via-white to-blue-600 hover:bg-gradient-from-tl my-4 hover:from-gray-500 hover:via-blue-700 hover:text-white  shadow-md hover:to-green-600  rounded px-10 border"
-						onClick={() => {
-							setAddOption([...addOption, obj])
-						}}
-					>
-						Add Option
-					</button>
-					<button
-						className="py-2 bg-gradient-to-tr from-red-400 via-white to-blue-600 hover:bg-gradient-from-tl my-4 hover:from-gray-500 hover:via-blue-700 hover:text-white  shadow-md hover:to-green-600  rounded px-8 border"
-						onClick={(e) => {
-							addQuestion && addOption
-								? addQuestionToJson(e)
-								: context.setTab(!context.tab)
-						}}
-					>
-						Next Question
-					</button>
-				</div>
 			</div>
 			<div className="max-h-[78vh] overflow-auto w-full md:w-2/3 mx-auto  border shadow-lg">
 				<PreviewComponent test={test} question={questionObj} />

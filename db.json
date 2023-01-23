@@ -70,7 +70,7 @@
           "content": "2B"
         }
       ],
-      "correctOption": "2",
+      "correctOption": "1",
       "id": 3
     },
     {
@@ -93,11 +93,11 @@
           "content": "Jan 1st"
         }
       ],
-      "correctOption": "0",
+      "correctOption": "2",
       "id": 4
     },
     {
-      "question": "Pakistan is Good Country",
+      "question": "Is Pakistan is good country",
       "options": [
         {
           "id": "0",
@@ -109,11 +109,34 @@
         },
         {
           "id": "2",
-          "content": "not Sure"
+          "content": "Not Sure"
+        }
+      ],
+      "correctOption": "1",
+      "id": 6
+    },
+    {
+      "question": "Your Cast is ",
+      "options": [
+        {
+          "id": "0",
+          "content": "Pushtoon"
+        },
+        {
+          "id": "1",
+          "content": "Punjabi"
+        },
+        {
+          "id": "2",
+          "content": "Sindhi"
+        },
+        {
+          "id": "3",
+          "content": "Balochi"
         }
       ],
       "correctOption": "",
-      "id": 5
+      "id": 8
     }
   ]
 }
